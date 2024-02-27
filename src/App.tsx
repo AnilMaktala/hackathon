@@ -19,7 +19,7 @@ function App() {
       <html>
         <header>
           <h1>Hello, Amplify 👋 </h1>
-          <button title= onClick={handleSignOut}></button>
+          <button title='signout' onClick={handleSignOut}></button>
         </header>
         <body>
 
