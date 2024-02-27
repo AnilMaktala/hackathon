@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { generateClient } from "aws-amplify/data";
 import type { Schema } from "../../amplify/data/resource";
-
+import type {Todo}
 export default function TodoList() {
   // generate your data client using the Schema from your backend
   const client = generateClient<Schema>();
